@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact | KGita Games</title>
+    <meta name="description" content="Contact KGita Games for business inquiries, collaborations and questions.">
+    <link rel="canonical" href="https://kgitagames.com/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact | KGita Games">
+    <meta property="og:description" content="Contact KGita Games for business inquiries, collaborations and questions.">
+    <meta property="og:url" content="https://kgitagames.com/contact.html">
+    <meta property="og:image" content="https://kgitagames.com/assets/images/hyetyn-poster.jpg">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Orbitron:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrap"><a class="logo" href="index.html" aria-label="KGita Games home"><img
+                    src="assets/icons/logo.svg" alt="KGita Games logo"></a>
+            <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">&#9776;</button>
+            <nav id="nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="sec">
+            <div class="wrap contact">
+                <div>
+                    <h1 class="intro">LET'S BUILD <em>SOMETHING GREAT.</em></h1>
+                    <p class="mute" style="margin-top:14px">For business inquiries, collaborations and questions, get in
+                        touch with KGita Games.</p>
+                    <form id="cf" novalidate data-endpoint="https://formspree.io/f/mljjwzwn" aria-describedby="status">
+                        <div class="hp" aria-hidden="true"><label>Leave empty<input name="website" tabindex="-1"
+                                    autocomplete="off"></label></div>
+                        <div class="fld"><label for="name">Name</label><input id="name" name="name" required
+                                autocomplete="name">
+                            <div class="err" id="e-name"></div>
+                        </div>
+                        <div class="fld"><label for="email">Email</label><input id="email" name="email" type="email"
+                                required autocomplete="email">
+                            <div class="err" id="e-email"></div>
+                        </div>
+                        <div class="fld"><label for="subject">Subject</label><input id="subject" name="subject"
+                                required>
+                            <div class="err" id="e-subject"></div>
+                        </div>
+                        <div class="fld"><label for="message">Message</label><textarea id="message" name="message"
+                                rows="5" required></textarea>
+                            <div class="err" id="e-message"></div>
+                        </div>
+                        <div class="row"><button class="btn green" type="submit">SEND MESSAGE</button></div>
+                        <div id="status" role="status" aria-live="polite"></div>
+                    </form>
+                </div>
+                <aside>
+                    <h2 style="color:var(--purple-hi)">GET IN TOUCH</h2>
+                    <p class="mute" style="margin-top:10px">Business email: <span class="ph">kgitagames@gmail.com</span></p>
+                    <ul class="links">
+                        <li><a href="https://www.youtube.com/@KGitaGames" target="_blank" rel="noopener">YouTube</a>
+                        </li>
+                        <li><a href="https://www.facebook.com/KGitaGames" target="_blank" rel="noopener">Facebook</a>
+                        </li>
+                        <li><a href="https://www.instagram.com/kgitagames/" target="_blank" rel="noopener">Instagram</a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <div class="fgrid">
+                <div><a class="logo" href="index.html"><img src="assets/icons/logo.svg" alt="KGita Games"></a>
+                    <p class="mute" style="margin-top:12px">An independent game studio founded by the DHG Brothers,
+                        building original games.</p>
+                </div>
+                <div>
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Follow</h4>
+                    <ul>
+                        <li><a href="https://www.youtube.com/@KGitaGames" rel="noopener" target="_blank">YouTube</a>
+                        </li>
+                        <li><a href="https://www.facebook.com/KGitaGames" rel="noopener" target="_blank">Facebook</a>
+                        </li>
+                        <li><a href="https://www.instagram.com/kgitagames/" rel="noopener" target="_blank">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copy2">&copy; KGita Games. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
